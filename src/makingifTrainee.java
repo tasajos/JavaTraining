@@ -11,6 +11,7 @@ public class makingifTrainee {
         Inputname = Num.nextInt();
 
         if(Inputname <5){
+
             System.out.println("Enjoy the good luck");
 
         }else {
