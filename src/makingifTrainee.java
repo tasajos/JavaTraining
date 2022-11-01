@@ -6,9 +6,10 @@ public class makingifTrainee {
         int Inputname;
 
         System.out.println("Pick a number between 1 and 10");
-        Scanner Num = new Scanner(System.in);
+        Scanner num = new Scanner(System.in);
 
-        Inputname = Num.nextInt();
+        Inputname = num.nextInt();
+
 
         if(Inputname <5){
 
@@ -16,6 +17,20 @@ public class makingifTrainee {
 
         }else {
             System.out.println("Your show selection will make your very happy");
+        }
+
+    String FavoriteFood = "Pique Macho";
+
+        System.out.println(FavoriteFood);
+
+        if (Inputname <100){
+            FavoriteFood="Sillpancho";
+            System.out.println(FavoriteFood);
+        }
+        else {
+
+            FavoriteFood = "Planchita";
+            System.out.println(FavoriteFood);
         }
 
     }
