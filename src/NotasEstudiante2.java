@@ -1,4 +1,4 @@
-public class NotasEstudiante {
+public class NotasEstudiante2 {
 
     public static double notas (double notas1, double notas2, double notas3){
 
@@ -14,8 +14,17 @@ return result;
     }
     public static void main(String[] args) {
 
-   notas(40,40,20);
+double Notasfinales = notas(20,30,10.5);
 
 
-    }
+//Nota minima de aprobacion 36
+
+        if (Notasfinales >=36){
+            System.out.println("El Estudiante aprobo el curso");
+
+        }else {
+            System.out.println("El estudiante perdio el curso");
+        }
+
+       }
 }
