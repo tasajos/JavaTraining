@@ -14,7 +14,10 @@ return result;
     }
     public static void main(String[] args) {
 
-   notas(40,40,20);
+double apoyo =   notas(40,40,20);
+
+System.out.println("El resultado es " + apoyo);
+
 
 
     }
